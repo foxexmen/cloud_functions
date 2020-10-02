@@ -1,0 +1,48 @@
+
+  <ion-header>
+    
+    <ion-title>
+      Chat
+    </ion-title>
+  
+</ion-header>
+
+<ion-content padding >
+
+  <ion-list no-lines> <!-- lista para mostrar los mensajes -->
+    
+    
+    
+
+  </ion-list>
+
+
+
+</ion-content>
+
+<ion-footer class="footer_page"><!--En footer para que la caja de texto del usuario siempre este visible-->
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size = "10">
+
+          <ion-item><!--Caja de texto para que el usuario escriba-->
+            <ion-input type="text" placeholder="Escribe algo..." [(ngModel)]="user_textToSend"
+              maxlength="200"></ion-input>
+          </ion-item>
+
+      </ion-col>
+      <ion-col size= "2">
+
+        <button ion-button clear icon-only (click)="callCloudFunction()"><!--Detona la acción de enviar el mensaje al agente-->
+          <ion-icon name="send" size = large></ion-icon>
+        </button>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-footer>
+
+
