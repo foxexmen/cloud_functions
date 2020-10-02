@@ -4,7 +4,7 @@
 
 ## Tema: EXAMEN FINAL DE TÓPICOS ESPECIALES
 
-#### Enlace: ![youtube]()
+#### Enlace: https://www.youtube.com/watch?v=CjCBQ7e-SIg&feature=youtu.be
 
 Resumen – En este documento se presentan los resultados de la aplicación móvil generada en Ionic con angular utilizando un servicio de Cloud Function de Firebase para generar una consulta de campos específicos, con una interfaz tipo chat.
 
